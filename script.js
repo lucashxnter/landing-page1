@@ -29,10 +29,10 @@ document.getElementById('year').textContent=new Date().getFullYear();
 (function(){
   const checkSVG='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>';
   const cases=[
-    {biz:'Padaria Pão Quente ME', rows:[['Simples Nacional','regular'],['DAS de junho','pago'],['Folha e pró-labore','calculados'],['Fechamento do mês','concluído']]},
-    {biz:'Studio Bela Hair', rows:[['Simples Nacional','regular'],['Notas fiscais do mês','emitidas'],['Pró-labore','em dia'],['INSS da equipe','recolhido']]},
-    {biz:'Norte Móveis (loja online)', rows:[['Regime tributário','revisado'],['ICMS do mês','apurado'],['DAS de junho','pago'],['Relatório financeiro','enviado']]},
-    {biz:'Helena Lima Odontologia', rows:[['Simples Nacional','regular'],['ISS','recolhido'],['Pró-labore','calculado'],['Planejamento do IR','em dia']]}
+    {biz:'Padaria Pão Quente ME', rows:[['Contas PJ e PF','separadas'],['Fluxo de caixa','organizado'],['Preço de venda','revisado'],['Reserva do mês','feita']]},
+    {biz:'Studio Bela Hair', rows:[['Despesas fixas','mapeadas'],['Margem de lucro','definida'],['Fluxo de caixa','em dia'],['Meta do mês','no caminho']]},
+    {biz:'Norte Móveis (loja online)', rows:[['Capital de giro','sob controle'],['Precificação','ajustada'],['Fluxo de caixa','organizado'],['Relatório financeiro','enviado']]},
+    {biz:'Helena Lima Estética', rows:[['Contas PJ e PF','separadas'],['Custos','mapeados'],['Sobra mensal','+18%'],['Planejamento','em dia']]}
   ];
   const biz=document.getElementById('panelBiz'),
         rowsEl=document.getElementById('panelRows'),
