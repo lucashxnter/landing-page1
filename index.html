@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jussara Cardoso · Contabilidade para quem empreende</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Contabilidade, impostos e organização financeira para MEIs e pequenas empresas. Sem juridiquês e sem susto no fim do mês.">
+
+<!-- ==========================================================================
+  LANDING DE DEMONSTRACAO (portfolio)
+  Persona ficticia: Jussara Cardoso, contadora autonoma (Campo Grande/MS).
+  Tudo entre {{ }} ou marcado como placeholder e' pra trocar por dados reais:
+  - numero de WhatsApp: procure por wa.me/55SEUNUMERO
+  - CRC, e-mail, anos de experiencia, depoimentos
+  Estrutura: index.html (markup) + styles.css (estilo) + script.js (carrossel).
+  Mantenha os tres na mesma pasta. Hospeda em qualquer lugar estatico
+  (Cloudflare Pages, Netlify, Vercel) de graca.
+=========================================================================== -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Spectral:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="top">
+  <div class="wrap nav">
+    <a href="#top" class="brand"><span class="mark">JC</span>Jussara&nbsp;Cardoso</a>
+    <nav class="nav-links" id="navlinks">
+      <a href="#servicos">Serviços</a>
+      <a href="#como">Como funciona</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#faq">Dúvidas</a>
+    </nav>
+    <div class="nav-cta">
+      <div class="nav-socials">
+        <a href="mailto:contato@marinatavares.com.br" class="nav-icon-btn" aria-label="E-mail">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+        </a>
+        <a href="https://wa.me/00998300000" class="nav-icon-btn" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.488-.917zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        </a>
+        <a href="https://instagram.com/" class="nav-icon-btn" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">Contabilidade para MEIs e pequenas empresas</span>
+      <h1>Você cuida do negócio. Eu deixo os <em>números em dia.</em></h1>
+      <p class="lead">Impostos, prazos e organização financeira sem juridiquês e sem susto no fim do mês. Você sabe exatamente o que pagar, quando pagar e quanto sobra.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5567000000000" class="btn btn-primary" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.488-.917zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+          Entrar em contato
+        </a>
+        <a href="#como" class="btn btn-ghost">Ver como funciona</a>
+      </div>
+      <div class="trust-line">
+        <span>CRC/MS ativo</span><span class="dot"></span>
+        <span>Atendimento em Campo Grande e online</span><span class="dot"></span>
+        <span>+120 empresas atendidas</span>
+      </div>
+    </div>
+
+    <!-- signature: painel "em dia" dinamico (carrossel) -->
+    <div class="panel-stage reveal">
+      <div class="panel" id="statusPanel" role="group" aria-roledescription="carrossel" aria-label="Exemplos de empresas em dia" aria-live="polite">
+        <div class="panel-top">
+          <div>
+            <div class="label">Status da empresa</div>
+            <div class="biz" id="panelBiz">Padaria Pão Quente ME</div>
+          </div>
+        </div>
+        <div class="panel-rows" id="panelRows"></div>
+      </div>
+      <div class="panel-dots" id="panelDots" role="tablist" aria-label="Escolher empresa"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PAIN ===== -->
+<section class="band band-alt">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">O que costuma travar</span>
+      <h2>Se você reconhece isso, dá pra resolver</h2>
+    </div>
+    <div class="pain-grid">
+      <div class="pain-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/></svg></div>
+        <p>Você vive com medo de multa por perder algum prazo que nem sabia que existia.</p>
+      </div>
+      <div class="pain-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></div>
+        <p>No fim do mês você não sabe ao certo quanto realmente sobrou de lucro.</p>
+      </div>
+      <div class="pain-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+        <p>O dinheiro da empresa e o seu vivem misturados na mesma conta.</p>
+      </div>
+      <div class="pain-card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9M13.73 21a2 2 0 01-3.46 0"/></svg></div>
+        <p>Seu contador atual some justamente quando você mais precisa de resposta.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="band" id="servicos">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Serviços</span>
+      <h2>O que eu tiro das suas costas</h2>
+      <p>Você escolhe só o que precisa. Tudo com um valor fechado, combinado antes, sem surpresa na fatura.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc reveal">
+        <div class="num">01</div>
+        <h3>Abertura e regularização</h3>
+        <p>Abro seu MEI ou sua empresa e deixo tudo certo desde o primeiro dia. Já tem empresa com pendência? Eu regularizo.</p>
+      </div>
+      <div class="svc reveal">
+        <div class="num">02</div>
+        <h3>Contabilidade mensal</h3>
+        <p>Impostos calculados, guias emitidas e prazos cumpridos no mês certo. Você só recebe a guia e paga.</p>
+      </div>
+      <div class="svc reveal">
+        <div class="num">03</div>
+        <h3>Planejamento tributário</h3>
+        <p>Será que dá pra pagar menos imposto dentro da lei? Eu analiso o seu regime e encontro a resposta pro seu caso.</p>
+      </div>
+      <div class="svc reveal">
+        <div class="num">04</div>
+        <h3>Consultoria financeira</h3>
+        <p>Fluxo de caixa, pró-labore e preço de venda organizados pra empresa parar de apertar e começar a dar lucro de verdade.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STEPS ===== -->
+<section class="band band-dark" id="como">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Como funciona</span>
+      <h2 style="color:#fff">Sair do caos leva três passos</h2>
+    </div>
+    <div class="steps">
+      <div class="step reveal">
+        <div class="n">01</div>
+        <div>
+          <h3>Conversa inicial, gratuita</h3>
+          <p>A gente conversa pelo WhatsApp ou pessoalmente. Eu entendo seu negócio, onde aperta, e já te digo o que dá pra melhorar. Sem compromisso.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="n">02</div>
+        <div>
+          <h3>Eu organizo e assumo</h3>
+          <p>Passo a limpo a parte fiscal e financeira e cuido da transição com seu contador atual, se houver. Você não para de trabalhar pra isso acontecer.</p>
+        </div>
+      </div>
+      <div class="step reveal">
+        <div class="n">03</div>
+        <div>
+          <h3>Você fica em dia</h3>
+          <p>Todo mês um relatório simples, em português de gente, e alguém de verdade pra responder quando você precisar. É isso.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<!-- ===== ABOUT ===== -->
+<section class="band" id="sobre">
+  <div class="wrap about-grid">
+    <div class="about-portrait reveal">
+      <img src="img/jussara.jpeg" alt="Jussara Cardoso, contadora">
+    </div>
+    <div class="about reveal">
+      <span class="eyebrow">Quem vai cuidar disso</span>
+      <h2>Jussara Cardoso</h2>
+      <div class="role">Contadora · CRC/MS 0XX.XXX</div>
+      <p>Há doze anos eu ajudo quem empreende a parar de ter medo da contabilidade. Comecei atendendo o comércio da minha rua e hoje cuido de mais de cem MEIs e pequenas empresas, a maioria por indicação de cliente.</p>
+      <p>Não trabalho com volume nem com robô respondendo no lugar. Você fala comigo, recebe explicação que dá pra entender e tem uma pessoa responsável pelo que acontece com a sua empresa.</p>
+      <div class="creds">
+        <div class="cred"><span>✓</span> 12 anos de experiência</div>
+        <div class="cred"><span>✓</span> +120 empresas ativas</div>
+        <div class="cred"><span>✓</span> Atendimento direto, sem call center</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="band band-alt">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">Quem já saiu do aperto</span>
+      <h2>O que os clientes dizem</h2>
+    </div>
+    <div class="quotes">
+      <div class="quote reveal">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Eu vivia atrasando imposto sem perceber. Em dois meses a Marina colocou tudo nos trilhos e hoje eu durmo tranquilo."</blockquote>
+        <div class="who"><div class="av">RG</div><div><b>Rafael Gomes</b><small>Hamburgueria · Campo Grande</small></div></div>
+      </div>
+      <div class="quote reveal">
+        <div class="stars">★★★★★</div>
+        <blockquote>"Pela primeira vez eu entendo pra onde vai o dinheiro da minha empresa. Era exatamente disso que eu precisava."</blockquote>
+        <div class="who"><div class="av">JS</div><div><b>Juliana Souza</b><small>Estúdio de design · remoto</small></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="band" id="faq">
+  <div class="wrap" style="max-width:820px">
+    <div class="sec-head reveal" style="max-width:none">
+      <span class="eyebrow">Dúvidas comuns</span>
+      <h2>Antes de me chamar, talvez você queira saber</h2>
+    </div>
+    <div class="faq">
+      <div class="faq-item reveal">
+        <button class="faq-q">Trocar de contador dá trabalho pra mim?</button>
+        <div class="faq-a"><p>Não. Eu faço toda a transição e busco seus dados com o contador atual. Do seu lado, é só me autorizar e seguir tocando o negócio.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Quanto custa?</button>
+        <div class="faq-a"><p>Depende do porte da empresa e do regime tributário. A conversa inicial é gratuita e, depois dela, você recebe um valor fechado por escrito. Sem mensalidade escondida e sem cobrança por cada e-mail.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Você atende fora de Campo Grande?</button>
+        <div class="faq-a"><p>Sim. Atendo Campo Grande presencialmente e o restante do Brasil de forma remota, por WhatsApp e chamada. A maior parte do que eu faço é digital.</p></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Sou MEI, vale a pena ter contador?</button>
+        <div class="faq-a"><p>Depende. Se você fatura pouco e está em dia, talvez ainda não precise, e eu vou te dizer isso na conversa em vez de te vender um serviço. Quando o MEI começa a crescer ou a contratar, aí sim faz muita diferença ter alguém acompanhando.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FINAL CTA ===== -->
+<section>
+  <div class="final reveal">
+    <span class="eyebrow" style="color:var(--gold);justify-content:center">Vamos começar</span>
+    <h2>Vamos deixar a sua empresa em dia?</h2>
+    <p>Me manda uma mensagem contando rapidinho do seu negócio. A primeira conversa é gratuita e você já sai dela sabendo o próximo passo.</p>
+    <a href="https://wa.me/5567000000000" class="btn btn-primary" target="_blank" rel="noopener" style="font-size:17px;padding:16px 30px">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.488-.917zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+      Entrar em contato agora
+    </a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div style="max-width:300px">
+        <div class="foot-brand">Jussara Cardoso</div>
+        <p>Contabilidade e organização financeira para quem empreende. Campo Grande/MS e todo o Brasil de forma remota.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Navegar</h4>
+        <a href="#servicos">Serviços</a>
+        <a href="#como">Como funciona</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#faq">Dúvidas</a>
+      </div>
+      <div class="foot-col">
+        <h4>Contato</h4>
+        <a href="https://wa.me/5567000000000" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="mailto:contato@marinatavares.com.br">contato@marinatavares.com.br</a>
+        <span>CRC/MS 0XX.XXX</span>
+        <span>Campo Grande, MS</span>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> Jussara Cardoso · Serviços contábeis</span>
+      <span>Atendimento de seg. a sex., 8h às 18h</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
